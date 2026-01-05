@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url(../IMAGES/istockphoto-178716575-612x612.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    /* min-height: 400px; */
+    margin-right: 60px;
+    font-size: 17px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    transition: 0.5 ease;
+    margin-left: 5px;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul li.active {
+    background-color: white;
+    color: black;
+}
+
+.logo img {
+    float: left;
+    width: 60px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.title {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: white;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
