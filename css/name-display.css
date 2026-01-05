@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../images/bg.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
+.form{
+    margin-top: 20px;
+    display: flex;
+}
+
+.form input {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: none;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.form button {
+    border: none;
+    padding: 10px 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: white;
+    background-color: #06063e6e;
+    font-size: 15px;
+}
+
+.display-name{
+    font-size: 90px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+}
