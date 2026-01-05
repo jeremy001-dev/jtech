@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url(../IMAGES/istockphoto-178716575-612x612.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77), rgba(0, 0, 0, 0.77)), url(../images/istockphoto-178716575-612x612.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
